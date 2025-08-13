@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://romophic.pages.dev/sitemap.xml
+Sitemap: https://romophic.github.io/sitemap.xml
