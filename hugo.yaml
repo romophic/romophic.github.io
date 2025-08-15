@@ -228,7 +228,7 @@ menu:
         - identifier: rss
           weight: 4
           name: RSS
-          url: https://romophic.github.io/index.xml
+          url: https://romophic.github.io/sitemap.xml
           params:
               icon: rss
 
