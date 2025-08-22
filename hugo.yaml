@@ -1,4 +1,4 @@
-baseurl: https://romophic.github.io/
+baseURL: https://romophic.github.io/
 languageCode: ja
 theme: hugo-theme-stack
 title: romophic
@@ -12,7 +12,7 @@ DefaultContentLanguage: ja
 # This will make .Summary and .WordCount behave correctly for CJK languages.
 hasCJKLanguage: true
 
-enableRobotsTXT: false
+enableRobotsTXT: true
 
 services:
     # Change it to your Disqus shortname before using
@@ -224,13 +224,6 @@ menu:
           url: https://instagram.com/romophic
           params:
               icon: brand-instagram
-
-        - identifier: rss
-          weight: 4
-          name: RSS
-          url: https://romophic.github.io/sitemap.xml
-          params:
-              icon: rss
 
 related:
     includeNewer: true
