@@ -27,6 +27,8 @@ permalinks:
     page: /:slug/
 
 params:
+    description: romophic's blog.
+    keywords: [romophic, blog, プログラミング, 競プロ, portfolio, C++, Python, JavaScript, TypeScript, HTML, CSS, Web Development, Software Engineering, Machine Learning, Data Science, AI, Deep Learning, Algorithms, Data Structures, Competitive Programming, Problem Solving, Open Source, GitHub, Tech Blog, Programming Blog, Coding Blog, romop]
     mainSections:
         - post
     featuredImageField: image
@@ -156,6 +158,8 @@ params:
             - type: toc
 
     opengraph:
+        locale: ja_JP
+        site_name: romophic
         twitter:
             # Your Twitter username
             site: romophic
@@ -253,3 +257,8 @@ markup:
         lineNos: true
         lineNumbersInTable: true
         tabWidth: 4
+
+sitemap:
+    changefreq: weekly
+    priority: 0.5
+    filename: sitemap.xml
