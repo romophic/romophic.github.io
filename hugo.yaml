@@ -52,6 +52,7 @@ params:
             src: /fav.webp
 
     article:
+        headingAnchor: true
         math: true
         toc: true
         readingTime: false
@@ -165,7 +166,7 @@ params:
             site: romophic
 
             # Available values: summary, summary_large_image
-            card: summary
+            card: summary_large_image
 
     defaultImage:
         opengraph:
